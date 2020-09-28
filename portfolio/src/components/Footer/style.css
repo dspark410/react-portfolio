@@ -1,0 +1,21 @@
+.footer {
+    
+    text-transform: uppercase;
+    color: #4f515d;
+    font-size: 0.8rem;
+}
+
+.icon-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  a {
+    color:black;
+    margin-left: 10px;
+    font-size: 1.5em;
+  }
+  
+  a :hover {
+    color:cornflowerblue;
+  }
