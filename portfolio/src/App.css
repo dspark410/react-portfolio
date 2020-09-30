@@ -3,11 +3,11 @@
   display:flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: 'Jura', sans-serif;
 }
 
 .main {
   flex: 1;
-  min-width: 50%;
   margin-top: 5em;
 }
 
@@ -16,3 +16,102 @@
   border-style: solid;
   border: solid 2px black;
 }
+
+.name{
+  font-size: 2.5em;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+}
+
+.title {
+  letter-spacing: 2px;
+  
+}
+
+.summary {
+  letter-spacing: 1.5px;
+  font-size: 0.9em;
+  max-width: 1024px;
+  /* line-height: 200%; */
+ 
+}
+
+.summary2 {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 13px;
+  padding-bottom: 50px;
+  letter-spacing: 1.5px;
+  font-size: 0.9em;
+  max-width: 1024px;
+}
+
+.summary-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects {
+  font-size: 2.5em;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  
+}
+.card-container{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 75px;
+  margin-bottom: 50px;
+}
+
+.card-body {
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  filter: grayscale(100%);
+}
+
+.card-body:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+  filter: grayscale(0%);
+}
+
+
+.logo {
+  margin-top: 15px;
+  height:250px;
+  width:90%;
+  background-color: #eee;
+  color: black;
+  border-radius: 5px;
+}
+
+.logo2 {
+  margin-top: 15px;
+  height:250px;
+  width:90%;
+  background-color: #eee;
+  color: black;
+  border-radius: 5px;
+ 
+}
+
+.logo2:hover{
+  margin-top: 15px;
+  height:250px;
+  width:90%;
+  background-color: #eee;
+  color: black;
+  border-radius: 5px;
+  
+}
+
+a {
+  text-decoration: none;
+}
+

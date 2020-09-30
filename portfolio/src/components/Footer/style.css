@@ -1,5 +1,4 @@
 .footer {
-    
     text-transform: uppercase;
     color: #4f515d;
     font-size: 0.8rem;
@@ -8,14 +7,52 @@
 .icon-row {
     display: flex;
     justify-content: center;
+    text-align: center;
+    align-items: center;
   }
   
   a {
-    color:black;
-    margin-left: 10px;
+    color:gray;
     font-size: 1.5em;
+    justify-content: space-between;
   }
   
-  a :hover {
-    color:cornflowerblue;
+  .iconleft{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 65px;
+    box-shadow: 0px 0px 1px#535358;
+    padding: 0.5em 0.6em;
+    background-color:white;
+    text-align: center;
+    transition: 0.5s;
   }
+
+  .iconleft:hover {
+    color:#eee;
+    background-color:cornflowerblue;
+    box-shadow: 0 4px 8px 0 cornflowerblue, 
+  0 6px 20px 0 cornflowerblue;
+  }
+
+  .iconright {
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 60px;
+    box-shadow: 0px 0px 1px#535358;
+    padding: 0.5em 0.6em;
+    background-color:white;
+    text-align: center;
+    transition: 0.5s;
+  }
+  
+  .iconright:hover {
+    color:#eee;
+    background-color:cornflowerblue;
+    box-shadow: 0 4px 8px 0 cornflowerblue, 
+  0 6px 20px 0 cornflowerblue;
+  }
+
+
+
+ 

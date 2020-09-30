@@ -12,22 +12,21 @@ export default function Footer() {
     return (
         <div className="footer">
             <div className="icon-row">
-                <a href="" rel="noopener noreferrer" download>
-                    <ImProfile />
+                <a className="iconleft" href="" rel="noopener noreferrer" download>
+                    <ImProfile className="iconborder" />
                 </a>
-                <a href="mailto: dspark410@gmail.com" rel="noopener noreferrer">
-                    <MdEmail />
+                <a className="iconleft" href="mailto: dspark410@gmail.com" rel="noopener noreferrer">
+                    <MdEmail className="iconborder" />
                 </a>
-                <a href="https://github.com/dspark410" target="_blank" rel="noopener noreferrer">
-                    <FaGithub />
+                <a className="iconright" href="https://github.com/dspark410" target="_blank" rel="noopener noreferrer">
+                    <FaGithub className="iconborder" />
                 </a>
-                <a href="https://www.linkedin.com/in/david-s-park/" target="_blank" rel="noopener noreferrer">
-                    <FaLinkedin />
+                <a className="iconright" href="https://www.linkedin.com/in/david-s-park/" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedin className="iconborder" />
                 </a>
-
 
             </div>
-            <p>© {getYear()} David Park</p>
+            <p>© {getYear()} David S. Park</p>
 
         </div>
     )
