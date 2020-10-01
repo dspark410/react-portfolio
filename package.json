@@ -2,7 +2,6 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https:dspark410.github.io/React-Portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
@@ -24,6 +23,7 @@
     "react-scripts": "3.4.3",
     "react-spring": "^8.0.27"
   },
+  "homepage": "https://dspark410.github.io/React-Portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
