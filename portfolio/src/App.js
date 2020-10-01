@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
 import Footer from "./components/Footer"
-// import Portfolio from './components/Portfolio';
+import OpenBtn from './components/ProjectBtn';
+import Collapse from '@material-ui/core/Collapse';
+import { FaGithub } from "react-icons/fa"
+import { FaLinkedin } from "react-icons/fa"
+import { ImProfile } from "react-icons/im";
 
-
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -15,34 +18,35 @@ function App() {
         <h1 className="name">David S. Park</h1>
 
         <h2 className="title" style={{ textTransform: "uppercase", color: "cornflowerblue", fontWeight: "600", fontSize: "1.0rem" }}>Full Stack Web Developer</h2>
-
-        <div className="summary-container">
-          <p className="summary">Recent bootcamp graduate from the UC Berkeley Extension Full Stack Web Development Program</p>
-        </div>
-        <div className="summary-container">
-          <p className="summary2">During my free time I love to cook and eat lots of food. I am a personally certified Food Adventurer.</p>
-        </div>
-        <h1 className="projects">Projects</h1>
-        <div className="card-container">
-
-          <div className="card-body">
-            <img className="logo" src="/images/hihologo.png" alt="Hi Ho Logo"/>
-            <a href="https://hi-ho-frontend.herokuapp.com/" target="_blank" rel="noopener noreferrer"><p> Hi Ho</p></a>
+        <div className="mainsummary-container">
+          <div className="summary-container">
+            <p className="summary">Recent bootcamp graduate from the UC Berkeley Extension Full Stack Web Development Program</p>
           </div>
-
-          <div className="card-body">
-            <img className="logo2" src="/images/smasual.jpg" alt="Smasual Logo"/>
-            <a href="https://radiant-spire-72704.herokuapp.com/" target="_blank" rel="noopener noreferrer"><p>Smasuals</p></a>
+          <div className="summary-container">
+            <p className="summary">During my free time I love to play video games, cook, and eat lots of food.</p>
           </div>
-
-          <div className="card-body">
-            <img className="logo" src="/images/hihologo.png" alt="Nurse Logo"/>
-           
-            <a href="https://staffbotsteve.github.io/lazy-loaders/" target="_blank" rel="noopener noreferrer"><p>Travel Nurses App</p></a>
+          <div className="summary-container">
+            <p className="summary">I'm also a personally certified Food Adventurer & Eater.</p>
           </div>
         </div>
+
+        <div className="icon-row">
+          <a className="iconleft" href="" rel="noopener noreferrer" download>
+            <ImProfile className="iconborder" />
+          </a>
+          <a className="iconright" href="https://github.com/dspark410" target="_blank" rel="noopener noreferrer">
+            <FaGithub className="iconborder" />
+          </a>
+          <a className="iconright" href="https://www.linkedin.com/in/david-s-park/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin className="iconborder" />
+          </a>
+
+        </div>
+    
+        <Collapse>
+        </Collapse>
+        <h1 className="projects"><OpenBtn /></h1>
       </div>
-
       <Footer />
     </div>
 
