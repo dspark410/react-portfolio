@@ -41,7 +41,7 @@ export default function TransitionsPopper() {
   return (
     <div>
        <div className={classes.root}>
-          <Fab onClick={handleClick} style={{ backgroundColor: "cornflowerblue", color: "#eee", position: "fixed", bottom: "0", right: "0", marginBottom: "30px", marginRight: "30px", height: "70px", width: "70px" }} aria-label="add">
+          <Fab onClick={handleClick} style={{ backgroundColor: "cornflowerblue", color: "#eee", position: "fixed", bottom: "0", right: "0", marginBottom: "30px", marginRight: "30px", height: "70px", width: "70px", outline:"none" }} aria-label="add">
             <EmailIcon style={{ fontSize: "30px" }} />
           </Fab>
 
