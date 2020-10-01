@@ -68,6 +68,7 @@
   filter: grayscale(100%);
   margin-right: 40px;
   margin-left: 40px;
+  transition: all 1.5s ease
   
 }
 
@@ -76,20 +77,22 @@
   filter: grayscale(100%);
   margin-right: 40px;
   margin-left: 40px;
-  
+  transition: all 1.5s ease
 }
 
 .card-body:hover {
   filter: grayscale(0%);
+  transition: all 1.5s ease
 }
 
 .card-body2:hover {
   filter: grayscale(0%);
+  transition: all 1.5s ease
 }
 
 .logo {
-  margin-top: 40px;
-  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   height:100px;
   width:100px;
   background-color: #3f51b5;
@@ -99,8 +102,8 @@
 }
 
 .logo2 {
-  margin-top: 40px;
-  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   height:100px;
   width:100px;
   background-color: #eee;

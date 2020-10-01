@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 import { Form } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./style.css"
+
 
 export default function Email() {
 
@@ -11,12 +11,8 @@ export default function Email() {
     function Email(e) {
         e.preventDefault();
 
-
         emailjs.sendForm('gmail', 'template_k9gw8ll', e.target, 'user_BGjh1sRDSGwzot0DIczEl')
-            .then((result) => {
-               
-
-               
+            .then((result) => {      
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);

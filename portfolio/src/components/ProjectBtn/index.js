@@ -24,13 +24,13 @@ export default function OpenBtn() {
                 <ExpandMoreIcon />
             </IconButton>
 
-            <Collapse in={expanded} timeout={800} unmountOnExit>
+            <Collapse  in={expanded} timeout={800}  unmountOnExit>
 
                 <div className="card-container">
                     <div className="card-body">
                         <a style={{textDecoration:"none"}} href="https://hi-ho-frontend.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                         <img className="logo" src="/images/hihowhite.png" alt="Hi Ho Logo" />
-                        <p style={{fontSize:"20px",color:"#3f51b5"}}>Hi Ho</p>
+                        <p style={{fontSize:"20px",color:"#3f51b5",position:"relative", right:"50"}}>Hi Ho</p>
                         </a>
                     </div>
                 </div>

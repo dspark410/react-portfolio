@@ -6,10 +6,6 @@ import Fade from '@material-ui/core/Fade';
 import Email from "../Email"
 import Popper from '@material-ui/core/Popper';
 
-
-
-
-
 const useStyles = makeStyles((theme) => ({
   root: {
     '& > *': {
@@ -20,7 +16,6 @@ const useStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(1),
   },
   paper: {
-    // border: '0.5px solid cornflowerblue',
     boxShadow:"0 0 10px cornflowerblue",
     borderRadius: "5px",
     padding: theme.spacing(1),
