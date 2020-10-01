@@ -31,7 +31,7 @@ function App() {
         </div>
 
         <div className="icon-row">
-          <a className="iconleft" href="/assets/resume.pdf" rel="noopener noreferrer" download>
+          <a className="iconleft" href= {process.env.PUBLIC_URL + "/assets/resume.pdf"} rel="noopener noreferrer" download>
             <ImProfile className="iconborder" />
           </a>
           <a className="iconright" href="https://github.com/dspark410" target="_blank" rel="noopener noreferrer">

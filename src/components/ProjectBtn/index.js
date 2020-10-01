@@ -3,6 +3,7 @@ import Collapse from '@material-ui/core/Collapse';
 import IconButton from '@material-ui/core/IconButton';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
+
 export default function OpenBtn() {
 
     const [expanded, setExpanded] = React.useState(false);
@@ -29,7 +30,7 @@ export default function OpenBtn() {
                 <div className="card-container">
                     <div className="card-body">
                         <a style={{textDecoration:"none"}} href="https://hi-ho-frontend.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                        <img className="logo" src="/images/hihowhite.png" alt="Hi Ho Logo" />
+                        <img className="logo" src={process.env.PUBLIC_URL + "/images/hihowhite.png"} alt="Hi Ho Logo" />
                         <p style={{fontSize:"20px",color:"#3f51b5",position:"relative", right:"50"}}>Hi Ho</p>
                         </a>
                     </div>
@@ -38,7 +39,7 @@ export default function OpenBtn() {
                 <div className="card-container">
                     <div className="card-body2">
                         <a style={{textDecoration:"none"}} href="https://radiant-spire-72704.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                        <img className="logo2" src="/images/smasual.jpg" alt="Smasual Logo" />
+                        <img className="logo2" src={process.env.PUBLIC_URL + "/images/smasual.jpg"} alt="Smasual Logo" />
                         <p style={{fontSize:"20px",color:"#e91d63"}}>Smasuals</p>
                         </a>
                     </div>
@@ -47,7 +48,7 @@ export default function OpenBtn() {
                 <div className="card-container">
                     <div className="card-body">             
                         <a style={{textDecoration:"none"}} href="https://staffbotsteve.github.io/lazy-loaders/" target="_blank" rel="noopener noreferrer">
-                        <img className="logo" src="/images/travelnurse.png" alt="Nurse Logo" />
+                        <img className="logo" src={process.env.PUBLIC_URL + "/images/travelnurse.png"} alt="Nurse Logo" />
                         <p style={{fontSize:"20px",color:"#006599"}}>Travel Nurse</p>
                         </a>                       
                     </div>
