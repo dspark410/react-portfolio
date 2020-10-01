@@ -20,13 +20,13 @@ function App() {
         <h2 className="title" style={{ textTransform: "uppercase", color: "cornflowerblue", fontWeight: "600", fontSize: "1.0rem" }}>Full Stack Web Developer</h2>
         <div className="mainsummary-container">
           <div className="summary-container">
-            <p className="summary">Recent bootcamp graduate from the UC Berkeley Extension Full Stack Web Development Program</p>
+            <p style={{color:"black"} }className="summary">Recent bootcamp graduate from the UC Berkeley Extension Full Stack Web Development Program</p>
           </div>
           <div className="summary-container">
-            <p className="summary">During my free time I love to play video games, cook, and eat lots of food.</p>
+            <p style={{color:"black"}} className="summary">During my free time I love to play video games, cook, and eat lots of food.</p>
           </div>
           <div className="summary-container">
-            <p className="summary">I'm also a personally certified Food Adventurer & Eater.</p>
+            <p style={{color:"black"}} className="summary">I'm also a personally certified Food Adventurer & Eater.</p>
           </div>
         </div>
 

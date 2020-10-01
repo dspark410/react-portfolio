@@ -3,8 +3,10 @@ import emailjs from 'emailjs-com';
 import { Form } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./style.css"
 
 export default function Email() {
+
 
     function Email(e) {
         e.preventDefault();
@@ -12,6 +14,9 @@ export default function Email() {
 
         emailjs.sendForm('gmail', 'template_k9gw8ll', e.target, 'user_BGjh1sRDSGwzot0DIczEl')
             .then((result) => {
+               
+
+               
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
@@ -40,6 +45,7 @@ export default function Email() {
                     <Form.Control required as="textarea" rows="3" name="message" />
                 </Form.Group>
                 <Button type="submit" style={{ backgroundColor: "cornflowerblue" }}>Send</Button>
+                
             </Form>
         </div>
     );

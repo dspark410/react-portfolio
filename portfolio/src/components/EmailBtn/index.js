@@ -20,10 +20,13 @@ const useStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(1),
   },
   paper: {
-    border: '1px solid cornflowerblue',
+    // border: '0.5px solid cornflowerblue',
+    boxShadow:"0 0 10px cornflowerblue",
     borderRadius: "5px",
     padding: theme.spacing(1),
     backgroundColor: theme.palette.background.paper,
+    marginBottom:"30px",
+    width:"300px"
   },
 }));
 
@@ -48,8 +51,8 @@ export default function TransitionsPopper() {
       </div>
       <Popper id={id} open={open} anchorEl={anchorEl} transition>
         {({ TransitionProps }) => (
-          <Fade {...TransitionProps} timeout={350}>
-            <div className={classes.paper}><Email /></div>
+          <Fade {...TransitionProps} timeout={1000}>
+            <div className={classes.paper}><Email/></div>
           </Fade>
         )}
       </Popper>

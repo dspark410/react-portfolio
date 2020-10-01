@@ -19,7 +19,7 @@ export default function OpenBtn() {
                 onClick={handleExpandClick}
                 aria-expanded={expanded}
                 aria-label="show more"
-                style={{ backgroundColor: "cornflowerblue", color: "#eee", marginLeft: "10px", height: "30px", width: "30px" }}
+                style={{ backgroundColor: "cornflowerblue", color: "#eee", marginLeft: "10px", height: "30px", width: "30px",outline:"none" }}
             >
                 <ExpandMoreIcon />
             </IconButton>
