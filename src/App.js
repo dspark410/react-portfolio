@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Footer from "./components/Footer"
 import OpenBtn from './components/ProjectBtn';
-import Collapse from '@material-ui/core/Collapse';
 import { FaGithub } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
 import { ImProfile } from "react-icons/im";
@@ -14,7 +13,13 @@ function App() {
     <div className="container">
 
       <div className="main">
-        <img className="profile-pic" src={"https://via.placeholder.com/150"} alt="David Park" />
+        <div className="box">
+        <img className="profile-pic" width="200px" height="200px" src={process.env.PUBLIC_URL + "/images/profilepic.jpg"} alt="David Park" />
+        <div className="border2">
+          
+        </div>
+        </div>
+        
         <h1 className="name">David S. Park</h1>
 
         <h2 className="title" style={{ textTransform: "uppercase", color: "cornflowerblue", fontWeight: "600", fontSize: "1.0rem" }}>Full Stack Web Developer</h2>
@@ -42,9 +47,6 @@ function App() {
           </a>
 
         </div>
-    
-        <Collapse>
-        </Collapse>
         <h1 className="projects"><OpenBtn /></h1>
       </div>
       <Footer />
