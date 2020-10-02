@@ -19,17 +19,13 @@
 }
 .profile-pic {
   border-radius: 50%;
-
   margin-bottom: 30px;
   position: relative;
-  
   filter: grayscale(100%);
-  
 }
 
 .profile-pic:hover {
-  filter: grayscale(0%);
-  
+  filter: grayscale(0%)
 }
 
 .border2 {
@@ -42,13 +38,10 @@
   position: absolute;
   margin-top: -2em;
   transition: transform 1s;
- 
-  
 }
 
 .border2:hover {
   transform:rotate(180deg);
-  
 }
 
 .name {

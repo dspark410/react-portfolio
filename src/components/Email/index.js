@@ -24,23 +24,23 @@ export default function Email() {
     return (
         <div>
             <Form onSubmit={Email}>
-                <Form.Group controlId="exampleForm.ControlInput1">
-                    <Form.Label>Name</Form.Label>
-                    <Form.Control required type="text" placeholder="Name" name="name" />
+                <Form.Group style={{fontFamily:"Jura, sans-serif", fontWeight:"bold"}} controlId="exampleForm.ControlInput1">
+                    <Form.Label >Name</Form.Label>
+                    <Form.Control  required type="text" placeholder="Name" name="name" />
                 </Form.Group>
-                <Form.Group controlId="exampleForm.ControlInput1">
+                <Form.Group style={{fontFamily:"Jura, sans-serif", fontWeight:"bold"}} controlId="exampleForm.ControlInput1">
                     <Form.Label>Email</Form.Label>
                     <Form.Control required type="email" placeholder="Email " name="email" />
                 </Form.Group>
-                <Form.Group controlId="exampleForm.ControlInput1">
+                <Form.Group style={{fontFamily:"Jura, sans-serif", fontWeight:"bold"}} controlId="exampleForm.ControlInput1">
                     <Form.Label>Subject</Form.Label>
                     <Form.Control required type="text" placeholder="Subject" name="subject" />
                 </Form.Group>
-                <Form.Group controlId="exampleForm.ControlTextarea1">
+                <Form.Group style={{fontFamily:"Jura, sans-serif", fontWeight:"bold"}} controlId="exampleForm.ControlTextarea1">
                     <Form.Label>Message</Form.Label>
                     <Form.Control required as="textarea" rows="3" name="message" />
                 </Form.Group>
-                <Button type="submit" style={{ backgroundColor: "cornflowerblue" }}>Send</Button>
+                <Button type="submit" style={{ backgroundColor: "cornflowerblue",fontFamily:"Jura, sans-serif", fontWeight:"bold" }}>Send</Button>
                 
             </Form>
         </div>

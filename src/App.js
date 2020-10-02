@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Footer from "./components/Footer"
-import OpenBtn from './components/ProjectBtn';
+import ProjectBtn from './components/ProjectBtn';
 import { FaGithub } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
 import { ImProfile } from "react-icons/im";
@@ -36,7 +36,7 @@ function App() {
         </div>
 
         <div className="icon-row">
-          <a className="iconleft" href= {process.env.PUBLIC_URL + "/assets/resume.pdf"} rel="noopener noreferrer" download>
+          <a className="iconleft" href= {process.env.PUBLIC_URL + "/assets/DPark_Resume.pdf"} rel="noopener noreferrer" download>
             <ImProfile className="iconborder" />
           </a>
           <a className="iconright" href="https://github.com/dspark410" target="_blank" rel="noopener noreferrer">
@@ -47,7 +47,7 @@ function App() {
           </a>
 
         </div>
-        <h1 className="projects"><OpenBtn /></h1>
+        <h1 className="projects"><ProjectBtn /></h1>
       </div>
       <Footer />
     </div>
