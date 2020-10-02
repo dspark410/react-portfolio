@@ -23,7 +23,7 @@
     "react-scripts": "3.4.3",
     "react-spring": "^8.0.27"
   },
-  "homepage": "https://dspark410.github.io/React-Portfolio",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
