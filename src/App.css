@@ -1,6 +1,6 @@
 .container {
   text-align: center;
-  display:flex;
+  display: flex;
   flex-direction: column;
   min-height: 100vh;
   font-family: 'Jura', sans-serif;
@@ -25,7 +25,7 @@
 }
 
 .profile-pic:hover {
-  filter: grayscale(0%)
+  filter: grayscale(0%);
 }
 
 .border2 {
@@ -41,7 +41,7 @@
 }
 
 .border2:hover {
-  transform:rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .name {
@@ -73,7 +73,7 @@
 }
 .mainsummary-container {
   margin-bottom: 40px;
-  }
+}
 
 .projects {
   font-size: 2.5em;
@@ -83,7 +83,7 @@
   color: cornflowerblue;
 }
 
-.card-container{
+.card-container {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -94,8 +94,7 @@
   filter: grayscale(100%);
   margin-right: 40px;
   margin-left: 40px;
-  transition: all 1.5s ease
-  
+  transition: all 1s ease;
 }
 
 .card-body2 {
@@ -103,39 +102,37 @@
   filter: grayscale(100%);
   margin-right: 40px;
   margin-left: 40px;
-  transition: all 1.5s ease
+  transition: all 1s ease;
 }
 
 .card-body:hover {
   filter: grayscale(0%);
-  transition: all 1.5s ease
+  transition: all 1s ease;
 }
 
 .card-body2:hover {
   filter: grayscale(0%);
-  transition: all 1.5s ease
+  transition: all 1s ease;
 }
 
 .logo {
   margin-top: 20px;
   margin-bottom: 10px;
-  height:100px;
-  width:100px;
+  height: 100px;
+  width: 100px;
   background-color: #3f51b5;
   color: black;
   border-radius: 50%;
-
 }
 
 .logo2 {
   margin-top: 20px;
   margin-bottom: 10px;
-  height:100px;
-  width:100px;
+  height: 100px;
+  width: 100px;
   background-color: #eee;
   color: black;
   border-radius: 5px;
-
 }
 
 a {
@@ -149,43 +146,38 @@ a {
   align-items: center;
 }
 
-
-.iconleft{
+.iconleft {
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 65px;
   box-shadow: 0px 0px 0.6#535358;
   padding: 11px 15px;
-  background-color:#eee;
+  background-color: #eee;
   transition: 0.5s;
   color: grey;
   margin-top: 30px;
 }
 
 .iconleft:hover {
-  color:#eee;
-  background-color:cornflowerblue;
-  box-shadow: 0 8px 8px 0 cornflowerblue, 
-  0 6px 20px 0 cornflowerblue;
+  color: #eee;
+  background-color: cornflowerblue;
+  box-shadow: 0 8px 8px 0 cornflowerblue, 0 6px 20px 0 cornflowerblue;
 }
 
 .iconright {
-  margin-right: 20px;        
+  margin-right: 20px;
   margin-left: 20px;
   border-radius: 65px;
   box-shadow: 0px 0px 0.6#535358;
   padding: 11px 15px;
-  background-color:#eee;
+  background-color: #eee;
   transition: 0.5s;
   color: grey;
   margin-top: 30px;
 }
 
 .iconright:hover {
-  color:#eee;
-  background-color:cornflowerblue;
-  box-shadow: 0 4px 8px 0 cornflowerblue, 
-  0 6px 20px 0 cornflowerblue;
+  color: #eee;
+  background-color: cornflowerblue;
+  box-shadow: 0 4px 8px 0 cornflowerblue, 0 6px 20px 0 cornflowerblue;
 }
-
-
