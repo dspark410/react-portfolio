@@ -181,3 +181,8 @@ a {
   background-color: cornflowerblue;
   box-shadow: 0 4px 8px 0 cornflowerblue, 0 6px 20px 0 cornflowerblue;
 }
+
+.message {
+  margin-left: 15px;
+  color: cornflowerblue;
+}
