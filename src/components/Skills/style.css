@@ -5,11 +5,10 @@
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  margin: auto;
+  margin: 0 auto;
   width: 75%;
   padding-top: 30px;
   transition: all 1s ease-in-out;
-  /* animation: moveacross 5s linear infinite alternate; */
 }
 
 .html,
@@ -24,17 +23,6 @@
 .git,
 .express {
   transition: all 0.3s ease-in-out;
-}
-
-.text {
-  display: flex;
-  width: 75%;
-  align-items: center;
-  text-align: center;
-  justify-content: space-between;
-  margin: auto;
-  font-size: 13px;
-  position: relative;
 }
 
 .html:hover {
@@ -99,11 +87,10 @@
   outline: none;
 }
 
-/* @keyframes moveacross {
-  from {
-    transform: translateX(-20%);
+@media (max-width: 800px) {
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
   }
-  to {
-    transform: translateX(20%);
-  }
-} */
+}
