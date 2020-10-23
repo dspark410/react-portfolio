@@ -1,4 +1,4 @@
-## React Portfolio
+# React Portfolio
 
-# Description
-React portfolio displaying all my projects.
+## Description
+A portfolio created using React.js and MaterialUI that displays all my projects.
