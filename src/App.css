@@ -85,24 +85,24 @@
 
 .card-container {
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  margin: auto;
   text-align: center;
+  justify-content: center;
 }
 
 .card-body {
   filter: grayscale(100%);
-  margin-right: 40px;
-  margin-left: 40px;
+
   transition: all 1s ease;
+  width: 300px;
 }
 
 .card-body2 {
   border-radius: 5px;
   filter: grayscale(100%);
-  margin-right: 40px;
-  margin-left: 40px;
+
   transition: all 1s ease;
+  width: 300px;
 }
 
 .card-body:hover {

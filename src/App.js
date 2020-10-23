@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import Footer from './components/Footer'
 import ProjectBtn from './components/ProjectBtn'
+import Skills from './components/Skills'
 import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { ImProfile } from 'react-icons/im'
@@ -102,6 +103,7 @@ function App() {
             <FaLinkedin className='iconborder' />
           </a>
         </div>
+        <Skills />
         <h1 className='projects'>
           <ProjectBtn />
         </h1>
