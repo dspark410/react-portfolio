@@ -26,7 +26,13 @@
   border-radius: 50%;
   margin-bottom: 30px;
   position: relative;
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+
+.profile-pic:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
 }
 
 .border2 {

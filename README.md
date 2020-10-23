@@ -1,4 +1,5 @@
 # React Portfolio
 
 ## Description
-A portfolio created using React.js and MaterialUI that displays all my projects.
+
+A portfolio created using React.js and Material UI to display my skills and projects.
