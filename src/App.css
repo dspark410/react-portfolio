@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .container {
   text-align: center;
   display: flex;
@@ -136,16 +140,17 @@ a {
 }
 
 .icon-row {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  align-items: center;
-  margin: auto;
-  width: 30%;
   font-size: 17px;
+  margin: auto;
 }
 
-.iconleft {
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
   border-radius: 65px;
   box-shadow: 0px 0px 0.6#535358;
   padding: 11px 15px;
@@ -153,28 +158,14 @@ a {
   transition: 0.5s;
   color: grey;
   margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.iconleft:hover {
+.icon:hover {
   color: #eee;
   background-color: cornflowerblue;
   box-shadow: 0 8px 8px 0 cornflowerblue, 0 6px 20px 0 cornflowerblue;
-}
-
-.iconright {
-  border-radius: 65px;
-  box-shadow: 0px 0px 0.6#535358;
-  padding: 11px 15px;
-  background-color: #eee;
-  transition: 0.5s;
-  color: grey;
-  margin-top: 30px;
-}
-
-.iconright:hover {
-  color: #eee;
-  background-color: cornflowerblue;
-  box-shadow: 0 4px 8px 0 cornflowerblue, 0 6px 20px 0 cornflowerblue;
 }
 
 .message {
