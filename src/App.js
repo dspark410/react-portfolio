@@ -22,6 +22,7 @@ function App() {
             src={process.env.PUBLIC_URL + '/images/profilepic.jpg'}
             alt='David Park'
           />
+
           <div className='border2'></div>
         </div>
 

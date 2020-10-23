@@ -1,0 +1,109 @@
+.skills {
+  font-size: 30px;
+  color: lightgrey;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 75%;
+  padding-top: 30px;
+  transition: all 1s ease-in-out;
+  /* animation: moveacross 5s linear infinite alternate; */
+}
+
+.html,
+.css,
+.bs,
+.js,
+.jquery,
+.react,
+.node,
+.mongo,
+.sql,
+.git,
+.express {
+  transition: all 0.3s ease-in-out;
+}
+
+.text {
+  display: flex;
+  width: 75%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  margin: auto;
+  font-size: 13px;
+  position: relative;
+}
+
+.html:hover {
+  color: #e44d26;
+  transition: all 0.3s ease-in-out;
+}
+
+.css:hover {
+  color: #264de4;
+  transition: all 0.3 ease-in-out;
+}
+.bs:hover {
+  color: #533b78;
+  transition: all 0.3 ease-in-out;
+}
+
+.js:hover {
+  color: #f7df1e;
+  transition: all 0.3 ease-in-out;
+}
+
+.jquery:hover {
+  color: #0865a6;
+  transition: all 0.3 ease-in-out;
+}
+
+.react:hover {
+  color: #5ed3f3;
+  transition: all 0.3 ease-in-out;
+}
+.node:hover {
+  color: #8bbf3d;
+  transition: all 0.3 ease-in-out;
+}
+
+.mongo:hover {
+  color: #8bbf3d;
+  transition: all 0.3 ease-in-out;
+}
+
+.sql:hover {
+  color: #005d85;
+  transition: all 0.3 ease-in-out;
+}
+
+.git:hover {
+  color: #e84d31;
+  transition: all 0.3 ease-in-out;
+}
+
+.express {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.express:hover {
+  transition: all 0.3 ease-in-out;
+  filter: invert(98%) sepia(3%) saturate(1084%) hue-rotate(208deg)
+    brightness(111%) contrast(73%);
+  border: none;
+  outline: none;
+}
+
+/* @keyframes moveacross {
+  from {
+    transform: translateX(-20%);
+  }
+  to {
+    transform: translateX(20%);
+  }
+} */
