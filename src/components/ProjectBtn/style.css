@@ -3,7 +3,6 @@
   height: 100%;
   width: 100%;
   border-radius: 10px;
-  margin-bottom: 20px;
 }
 
 .project-image:hover {
@@ -26,8 +25,7 @@
   justify-content: center;
   align-content: center;
   text-align: center;
-
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
 }
 
 .modal-header {
@@ -133,7 +131,7 @@
 
 .ReactModal__Overlay {
   opacity: 0;
-  transition: opacity 500ms ease-in;
+  transition: opacity 500ms ease-in !important;
 }
 
 .ReactModal__Overlay--after-open {

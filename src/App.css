@@ -31,17 +31,7 @@ body {
 .profile-pic {
   border-radius: 50%;
   margin-bottom: 32px;
-  position: relative;
   object-fit: cover;
-}
-
-.border2 {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  margin-top: -2em;
-  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.4);
 }
 
 .name {

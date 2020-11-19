@@ -170,7 +170,7 @@ export default function ProjectBtn() {
             <button onClick={openModal2} className='image-button'>
               <img
                 data-aos='fade-up'
-                className='project-image '
+                className='project-image  mb-2'
                 src={process.env.PUBLIC_URL + '/images/hiho.png'}
                 alt='Hi Ho'
               />
@@ -270,7 +270,7 @@ export default function ProjectBtn() {
             <button onClick={openModal3} className='image-button'>
               <img
                 data-aos='fade-up'
-                className='project-image '
+                className='project-image mb-2'
                 src={process.env.PUBLIC_URL + '/images/smasual.png'}
                 alt='Smasual'
               />
@@ -372,7 +372,7 @@ export default function ProjectBtn() {
             <button onClick={openModal4} className='image-button'>
               <img
                 data-aos='fade-up'
-                className='project-image '
+                className='project-image mb-2'
                 src={process.env.PUBLIC_URL + '/images/nurse.png'}
                 alt='Travel Nurse App'
               />
