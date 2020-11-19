@@ -1,0 +1,150 @@
+.project-image {
+  box-shadow: rgba(0, 0, 0, 0.148438) 0 1px 2px;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.project-image:hover {
+  transform: scale(1.1) !important;
+}
+
+.image-button {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.image-button:focus {
+  outline: none;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+  margin: 0 auto;
+}
+
+.modal-header {
+  background-color: #e9e9e9;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.modal-image {
+  max-width: 600px;
+  max-height: 400px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.description {
+  margin: 15px auto 15px auto !important;
+}
+
+.modal-footer {
+  background-color: #e9e9e9;
+  margin-top: 15px;
+}
+
+.modal-footer-button {
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+}
+
+.modal-footer-button:focus {
+  outline: 0;
+}
+
+.modal-footer-button:active {
+  transform: scale(0.93);
+}
+
+.modal-footer-button:hover {
+  background-color: darkgrey;
+}
+
+.footer-button {
+  padding: 10px 16px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  transition: transform;
+  font-weight: bold;
+  background-color: #e9e9e9;
+}
+
+.footer-button:active {
+  transform: scale(0.93);
+}
+
+.footer-button:focus {
+  outline: 0;
+}
+
+.footer-button:hover {
+  background-color: #ddd;
+}
+
+.close-button {
+  border: none;
+  background: none;
+  outline: none;
+  position: absolute;
+  top: 20px;
+  right: 22px;
+  color: black;
+  font-size: 20px;
+  transition: transform;
+}
+
+.close-button:focus {
+  outline: none;
+}
+
+.close-button:hover {
+  color: white;
+}
+
+.close-button:active {
+  transform: scale(1.2);
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.ReactModal__Body--open,
+.ReactModal__Html--open {
+  overflow: hidden;
+}

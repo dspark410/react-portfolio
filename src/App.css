@@ -1,13 +1,19 @@
 * {
   box-sizing: border-box;
+  font-family: 'Jura', sans-serif !important;
 }
 
-.container {
+body {
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  /* background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%); */
+}
+.app_container {
   text-align: center;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: 'Jura', sans-serif;
+  font-family: 'Jura', sans-serif !important;
+  width: 100%;
 }
 
 .main {
@@ -24,31 +30,18 @@
 
 .profile-pic {
   border-radius: 50%;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
   position: relative;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-
-.profile-pic:hover {
-  -webkit-filter: grayscale(0);
-  filter: grayscale(0);
+  object-fit: cover;
 }
 
 .border2 {
-  border: 8px solid cornflowerblue;
-  border-top-color: #181818;
-  border-left-color: #181818;
   border-radius: 50%;
   width: 200px;
   height: 200px;
   position: absolute;
   margin-top: -2em;
-  transition: transform 1s;
-}
-
-.border2:hover {
-  transform: rotate(180deg);
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.4);
 }
 
 .name {
@@ -68,7 +61,7 @@
 .summary {
   letter-spacing: 1.5px;
   font-size: 0.9em;
-  max-width: 1024px;
+
   margin: 0;
 }
 
@@ -82,63 +75,15 @@
   margin-bottom: 40px;
 }
 
+.project-header {
+  margin-top: 40px;
+}
+
 .projects {
   font-size: 2.5em;
   font-weight: lighter;
   letter-spacing: 1.5px;
-  margin-top: 60px;
   color: cornflowerblue;
-}
-
-.card-container {
-  display: inline-flex;
-  margin: auto;
-  text-align: center;
-  justify-content: center;
-}
-
-.card-body {
-  filter: grayscale(100%);
-
-  transition: all 1s ease;
-  width: 300px;
-}
-
-.card-body2 {
-  border-radius: 5px;
-  filter: grayscale(100%);
-  transition: all 1s ease;
-  width: 300px;
-}
-
-.card-body:hover {
-  filter: grayscale(0%);
-  transition: all 1s ease;
-}
-
-.card-body2:hover {
-  filter: grayscale(0%);
-  transition: all 1s ease;
-}
-
-.logo {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  height: 100px;
-  width: 100px;
-  background-color: #3f51b5;
-  color: black;
-  border-radius: 50%;
-}
-
-.logo2 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  height: 100px;
-  width: 100px;
-  background-color: #eee;
-  color: black;
-  border-radius: 5px;
 }
 
 a {
@@ -158,7 +103,7 @@ a {
 
 .icon {
   border-radius: 65px;
-  box-shadow: 0px 0px 0.6#535358;
+  box-shadow: 0 0 15px lightgrey;
   padding: 11px 15px;
   background-color: #eee;
   transition: 0.5s;
@@ -169,9 +114,9 @@ a {
 }
 
 .icon:hover {
-  color: #eee;
+  color: #ddd;
   background-color: cornflowerblue;
-  box-shadow: 0 8px 8px 0 cornflowerblue, 0 6px 20px 0 cornflowerblue;
+  box-shadow: 0 0px 2px 4px cornflowerblue;
 }
 
 .message {

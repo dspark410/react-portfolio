@@ -55,7 +55,6 @@ export default function Email() {
       <Form onSubmit={Email}>
         <Form.Group
           style={{ fontFamily: 'Jura, sans-serif', fontWeight: 'bold' }}
-          controlId='exampleForm.ControlInput1'
         >
           <Form.Label>Name</Form.Label>
           <Form.Control
@@ -68,7 +67,6 @@ export default function Email() {
         </Form.Group>
         <Form.Group
           style={{ fontFamily: 'Jura, sans-serif', fontWeight: 'bold' }}
-          controlId='exampleForm.ControlInput1'
         >
           <Form.Label>Email</Form.Label>
           <Form.Control
@@ -81,7 +79,6 @@ export default function Email() {
         </Form.Group>
         <Form.Group
           style={{ fontFamily: 'Jura, sans-serif', fontWeight: 'bold' }}
-          controlId='exampleForm.ControlInput1'
         >
           <Form.Label>Subject</Form.Label>
           <Form.Control
@@ -94,7 +91,6 @@ export default function Email() {
         </Form.Group>
         <Form.Group
           style={{ fontFamily: 'Jura, sans-serif', fontWeight: 'bold' }}
-          controlId='exampleForm.ControlTextarea1'
         >
           <Form.Label>Message</Form.Label>
           <Form.Control
@@ -116,7 +112,11 @@ export default function Email() {
         >
           Send
         </Button>
-        <span className='message' id='message'></span>
+        <span
+          style={{ fontFamily: 'Jura, sans-serif', fontWeight: 'bold' }}
+          className='message'
+          id='message'
+        ></span>
       </Form>
     </div>
   )

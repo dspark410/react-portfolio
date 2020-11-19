@@ -14,9 +14,14 @@ import './style.css'
 export default function Skills() {
   return (
     <>
-      <h1 style={{ marginTop: '50px', color: 'cornflowerblue' }}>Skills</h1>
+      <h1
+        data-aos='fade'
+        style={{ marginTop: '50px', color: 'cornflowerblue' }}
+      >
+        Skills
+      </h1>
 
-      <div className='skills'>
+      <div className='skills' data-aos='fade'>
         <FaHtml5 className='html' />
         <FaCss3Alt className='css' />
         <FaBootstrap className='bs' />
@@ -24,28 +29,10 @@ export default function Skills() {
         <DiJqueryLogo className='jquery' />
         <FaReact className='react' />
         <IoLogoNodejs className='node' />
-        <img
-          className='express'
-          src={process.env.PUBLIC_URL + '/images/ex.png'}
-          alt='expressjs'
-        />
         <DiMongodb className='mongo' />
         <GrMysql className='sql' />
         <DiGitBranch className='git' />
       </div>
-      {/* <div className='text'>
-        <p>HTML5</p>
-        <p>CSS3</p>
-        <p>Bootstrap</p>
-        <p>JavaScript</p>
-        <p>jQuery</p>
-        <p>React</p>
-        <p>Node</p>
-        <p>Express</p>
-        <p>MongoDB</p>
-        <p>MySQL</p>
-        <p>Git</p>
-      </div> */}
     </>
   )
 }
