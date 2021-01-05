@@ -6,19 +6,6 @@ import { Row, Col } from 'react-bootstrap'
 import Modal from 'react-modal'
 import { CgClose } from 'react-icons/cg'
 
-const customStyles = {
-  content: {
-    top: '50%',
-    left: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    padding: '0',
-    transform: 'translate(-50%, -50%)',
-    border: 'none',
-    boxShadow: '0px 0px 6px 2px #e9e9e9',
-  },
-}
-
 Modal.setAppElement('#root')
 
 export default function ProjectBtn() {
@@ -106,9 +93,9 @@ export default function ProjectBtn() {
             </button>
 
             <Modal
+              className='modalContainer'
               isOpen={modalIsOpen}
               onRequestClose={closeModal}
-              style={customStyles}
             >
               <div className='modal-container'>
                 <h3 className='modal-header'>League Stats</h3>
@@ -206,7 +193,7 @@ export default function ProjectBtn() {
             <Modal
               isOpen={modalIsOpen1}
               onRequestClose={closeModal1}
-              style={customStyles}
+              className='modalContainer'
             >
               <div className='modal-container'>
                 <h3 className='modal-header'>Covid-19 Tracker</h3>
@@ -299,7 +286,7 @@ export default function ProjectBtn() {
             <Modal
               isOpen={modalProjectIsOpen}
               onRequestClose={closeProjectModal}
-              style={customStyles}
+              className='modalContainer'
             >
               <div className='modal-container'>
                 <h3 className='modal-header'>React Portfolio</h3>
@@ -390,7 +377,7 @@ export default function ProjectBtn() {
             <Modal
               isOpen={modal2IsOpen}
               onRequestClose={closeModal2}
-              style={customStyles}
+              className='modalContainer'
             >
               <div className='modal-container'>
                 <h3 className='modal-header'>Hi Ho</h3>
@@ -491,7 +478,7 @@ export default function ProjectBtn() {
             <Modal
               isOpen={modal3IsOpen}
               onRequestClose={closeModal3}
-              style={customStyles}
+              className='modalContainer'
             >
               <div className='modal-container'>
                 <h3 className='modal-header'>Smasual</h3>
@@ -593,7 +580,7 @@ export default function ProjectBtn() {
             <Modal
               isOpen={modal4IsOpen}
               onRequestClose={closeModal4}
-              style={customStyles}
+              className='modalContainer'
             >
               <div className='modal-container'>
                 <h3 className='modal-header'>Travel Nurses Job Spot</h3>
