@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+
 * {
   box-sizing: border-box;
   font-family: 'Jura', sans-serif !important;
@@ -75,6 +77,7 @@ body {
   font-weight: lighter;
   letter-spacing: 1.5px;
   color: cornflowerblue;
+  font-weight: 500;
 }
 
 a {

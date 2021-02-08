@@ -120,14 +120,17 @@ export default function ProjectBtn() {
                 <p className='font-weight-bolder'>
                   Note:{' '}
                   <span className='font-weight-normal'>
-                    Currently, there is no deployment link. This project is
-                    still in progress.
+                    This project is still in progress. A working prototype can
+                    be found on the site link.
                   </span>
                 </p>
                 <div className='button-container'>
-                  {/* <a href='' rel='noopener noreferrer' target='_blank'>
+                  <a
+                    href='https://league-statistic.herokuapp.com/'
+                    rel='noopener noreferrer'
+                    target='_blank'
+                  >
                     <button
-                      disabled='true'
                       className='footer-button'
                       style={{
                         fontFamily: 'Jura, sans-serif',
@@ -135,7 +138,7 @@ export default function ProjectBtn() {
                     >
                       View Site
                     </button>
-                  </a> */}
+                  </a>
                   <a
                     href='https://github.com/dspark410/league-of-legends-app'
                     rel='noopener noreferrer'
