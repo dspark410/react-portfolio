@@ -126,7 +126,7 @@ export default function ProjectBtn() {
                 </p>
                 <div className='button-container'>
                   <a
-                    href='https://league-statistic.herokuapp.com/'
+                    href='https://league-stats.com/'
                     rel='noopener noreferrer'
                     target='_blank'
                   >
