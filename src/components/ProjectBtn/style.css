@@ -1,3 +1,5 @@
+/** @format */
+
 .image-container {
   margin-bottom: 30px;
 }
@@ -48,14 +50,14 @@
   margin: 0 auto 0 auto;
   width: 100%;
   height: auto;
-  background-color: #fff;
+  background-color: #e1e1e1;
 }
 
 .modal-header {
   background-color: #e9e9e9;
   display: flex;
-  text-align: center;
-  justify-content: center;
+  text-align: center !important;
+  justify-content: center !important;
   align-content: center;
   width: 100%;
   margin-bottom: 15px;
@@ -84,7 +86,7 @@
 .modal-footer-button {
   color: black;
   font-weight: bold;
-  background-color: white;
+  background-color: #e1e1e1;
   border: none;
   padding: 10px 16px;
   border-radius: 5px;
@@ -141,7 +143,7 @@
 }
 
 .close-button:hover {
-  color: white;
+  color: #e1e1e1;
 }
 
 .close-button:active {
