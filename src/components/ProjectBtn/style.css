@@ -54,7 +54,7 @@
 }
 
 .modal-header {
-  background-color: #e9e9e9;
+  background-color: #d1cece;
   display: flex;
   text-align: center !important;
   justify-content: center !important;
@@ -79,7 +79,7 @@
 }
 
 .modal-footer {
-  background-color: #e9e9e9;
+  background-color: #d1cece;
   margin-top: 15px;
 }
 
