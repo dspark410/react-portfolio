@@ -18,7 +18,7 @@ export const projectData = [
     description: `In light of the situation in 2020 and Covid-19, I created a Covid-19 tracker that displays live case data for each country.`,
     tech: `React, React-Leaflet, Chart.js, Bootstrap`,
     note: null,
-    link: `https://main.d3tcy20w66t5z5.amplifyapp.com/`,
+    link: `https://covid-19-tracker-app1.netlify.app/`,
     github: `https://github.com/dspark410/covid-19-tracker`,
   },
   {
