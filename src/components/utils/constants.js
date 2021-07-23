@@ -14,7 +14,7 @@ export const projectData = [
   },
   {
     name: 'Covid-19 Tracker',
-    image: process.env.PUBLIC_URL + '/images/covidtracker.png',
+    image: process.env.PUBLIC_URL + '/images/covidtracker.jpg',
     description: `In light of the situation in 2020 and Covid-19, I created a Covid-19 tracker that displays live case data for each country.`,
     tech: `React, React-Leaflet, Chart.js, Bootstrap`,
     note: null,
